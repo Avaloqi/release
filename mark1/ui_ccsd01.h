@@ -145,7 +145,10 @@ public:
         tabWidget = new QTabWidget(CCSD01);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
         tabWidget->setGeometry(QRect(30, 50, 871, 521));
-        tabWidget->setStyleSheet(QString::fromUtf8("QTabBar::tab{min-height:60px;min-width:100px}\n"
+        tabWidget->setStyleSheet(QString::fromUtf8("QTabBar::tab{height:60px;min-width:100px;margin-right:20px;}\n"
+"QTabWidget::pane{\n"
+"	border:none;\n"
+"}\n"
 "QTabBar::tab{background-color:#066d93;color:white}\n"
 "QTabBar::tab::selected{background-color:#05526e;color:white}"));
         tab = new QWidget();

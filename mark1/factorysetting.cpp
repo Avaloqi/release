@@ -13,7 +13,7 @@ FactorySetting::FactorySetting(QWidget *parent) :
 
     setWindowTitle("出厂配置");
 
-    ui->pb_back->setGeometry(this->width()-110, 30, 50, 50);
+    ui->pb_back->setGeometry(this->width()-80, 30, 50, 50);
     ui->pb_back->setStyleSheet("QPushButton{background-color:#066d93;border-radius:25px;}");
 
     ui->buttonsWidget->setGeometry(100, this->height()/2-60, this->width()-200, 60);

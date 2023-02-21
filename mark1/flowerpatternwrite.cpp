@@ -9,7 +9,7 @@ FlowerPatternWrite::FlowerPatternWrite(QWidget *parent) :
     ui->setupUi(this);
     setWindowTitle("花型编写和修改");
 
-    ui->pb_back->setGeometry(this->width()-110, 30, 50, 50);
+    ui->pb_back->setGeometry(this->width()-80, 30, 50, 50);
     ui->pb_back->setStyleSheet("QPushButton{background-color:#066d93;border-radius:25px;}");
 //    ui->pb_back->setIcon(style()->standardIcon(QStyle::SP_ArrowBack));
 //    ui->pb_back->setIconSize(QSize(50, 50));

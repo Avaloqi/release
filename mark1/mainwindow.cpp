@@ -16,6 +16,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     setWindowTitle("主页面");
 
+
     initData();
 
     ui->timeLabel->setGeometry((this->width()-150)/2, 30, 150, 20);

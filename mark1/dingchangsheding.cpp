@@ -9,7 +9,7 @@ DingChangSheDIng::DingChangSheDIng(QWidget *parent) :
 
     setWindowTitle("定长设定");
 
-    ui->pb_back->setGeometry(this->width()-110, 30, 50, 50);
+    ui->pb_back->setGeometry(this->width()-80, 30, 50, 50);
     ui->pb_back->setStyleSheet("QPushButton{background-color:#066d93;border-radius:25px;}");
 }
 

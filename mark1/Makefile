@@ -323,6 +323,7 @@ DIST          = ../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/insta
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/qt_config.prf \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/linux-arm-gnueabi-g++/qmake.conf \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/exclusive_builds.prf \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/toolchain.prf \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/default_pre.prf \
@@ -571,6 +572,7 @@ Makefile: mark1.pro ../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/i
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/qt_config.prf \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/linux-arm-gnueabi-g++/qmake.conf \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/exclusive_builds.prf \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/toolchain.prf \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/default_pre.prf \
@@ -770,6 +772,7 @@ Makefile: mark1.pro ../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/i
 ../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/qt_config.prf:
 ../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/linux-arm-gnueabi-g++/qmake.conf:
 ../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/exclusive_builds.prf:
 ../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/toolchain.prf:
 ../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/mkspecs/features/default_pre.prf:
@@ -3833,7 +3836,50 @@ ccsd01.o: ccsd01.cpp ccsd01.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_ccsd01.h
+		ui_ccsd01.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QTabWidget \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ccsd01.o ccsd01.cpp
 
 ccsd02.o: ccsd02.cpp ccsd02.h \
@@ -3941,7 +3987,49 @@ ccsd02.o: ccsd02.cpp ccsd02.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_ccsd02.h
+		ui_ccsd02.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ccsd02.o ccsd02.cpp
 
 ccsd03.o: ccsd03.cpp ccsd03.h \
@@ -4049,7 +4137,52 @@ ccsd03.o: ccsd03.cpp ccsd03.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_ccsd03.h
+		ui_ccsd03.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QDialogButtonBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdialogbuttonbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QTabWidget \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ccsd03.o ccsd03.cpp
 
 chuweiqi.o: chuweiqi.cpp chuweiqi.h \
@@ -4158,6 +4291,27 @@ chuweiqi.o: chuweiqi.cpp chuweiqi.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
 		ui_chuweiqi.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QStackedWidget \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstackedwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget \
 		cwq01.h \
 		cwq02.h \
 		cwq03.h \
@@ -4273,6 +4427,24 @@ converter.o: converter.cpp converter.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
 		ui_converter.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget \
 		converterstatus.h \
 		converterworkset.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o converter.o converter.cpp
@@ -4382,7 +4554,29 @@ converterstatus.o: converterstatus.cpp converterstatus.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_converterstatus.h
+		ui_converterstatus.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o converterstatus.o converterstatus.cpp
 
 converterworkset.o: converterworkset.cpp converterworkset.h \
@@ -4490,7 +4684,43 @@ converterworkset.o: converterworkset.cpp converterworkset.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_converterworkset.h
+		ui_converterworkset.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o converterworkset.o converterworkset.cpp
 
 cwq01.o: cwq01.cpp cwq01.h \
@@ -4598,7 +4828,45 @@ cwq01.o: cwq01.cpp cwq01.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_cwq01.h
+		ui_cwq01.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cwq01.o cwq01.cpp
 
 cwq02.o: cwq02.cpp cwq02.h \
@@ -4706,7 +4974,31 @@ cwq02.o: cwq02.cpp cwq02.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_cwq02.h
+		ui_cwq02.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cwq02.o cwq02.cpp
 
 cwq03.o: cwq03.cpp cwq03.h \
@@ -4814,7 +5106,40 @@ cwq03.o: cwq03.cpp cwq03.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_cwq03.h
+		ui_cwq03.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cwq03.o cwq03.cpp
 
 cwq04.o: cwq04.cpp cwq04.h \
@@ -4922,7 +5247,40 @@ cwq04.o: cwq04.cpp cwq04.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_cwq04.h
+		ui_cwq04.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cwq04.o cwq04.cpp
 
 deviceversion.o: deviceversion.cpp deviceversion.h \
@@ -5030,7 +5388,28 @@ deviceversion.o: deviceversion.cpp deviceversion.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_deviceversion.h
+		ui_deviceversion.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o deviceversion.o deviceversion.cpp
 
 dialog01.o: dialog01.cpp dialog01.h \
@@ -5139,7 +5518,19 @@ dialog01.o: dialog01.cpp dialog01.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
 		dialog02.h \
-		ui_dialog01.h
+		ui_dialog01.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o dialog01.o dialog01.cpp
 
 dialog02.o: dialog02.cpp dialog02.h \
@@ -5247,7 +5638,62 @@ dialog02.o: dialog02.cpp dialog02.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_dialog02.h
+		ui_dialog02.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QDial \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdial.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QFontComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qfontcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qfontdatabase.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLCDNumber \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlcdnumber.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QProgressBar \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qprogressbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QSlider \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QSpinBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QTabWidget \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QTextEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtextedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractscrollarea.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextdocument.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QTimeEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdatetimeedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qdatetime.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcalendar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o dialog02.o dialog02.cpp
 
 dingchangsheding.o: dingchangsheding.cpp dingchangsheding.h \
@@ -5355,7 +5801,49 @@ dingchangsheding.o: dingchangsheding.cpp dingchangsheding.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_dingchangsheding.h
+		ui_dingchangsheding.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QVBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o dingchangsheding.o dingchangsheding.cpp
 
 factorysetting.o: factorysetting.cpp factorysetting.h \
@@ -5464,6 +5952,24 @@ factorysetting.o: factorysetting.cpp factorysetting.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
 		ui_factorysetting.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget \
 		ccsd01.h \
 		ccsd02.h \
 		ccsd03.h
@@ -5575,9 +6081,29 @@ flowerpatternwrite.o: flowerpatternwrite.cpp flowerpatternwrite.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
 		ui_flowerpatternwrite.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QVBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QStyle \
-		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
-		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o flowerpatternwrite.o flowerpatternwrite.cpp
 
 jingshajiance.o: jingshajiance.cpp jingshajiance.h \
@@ -5686,8 +6212,30 @@ jingshajiance.o: jingshajiance.cpp jingshajiance.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
 		ui_jingshajiance.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QDialogButtonBox \
-		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdialogbuttonbox.h
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdialogbuttonbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o jingshajiance.o jingshajiance.cpp
 
 main.o: main.cpp mainwindow.h \
@@ -5972,6 +6520,29 @@ mainwindow.o: mainwindow.cpp mainwindow.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QMap \
 		ui_mainwindow.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QStatusBar \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstatusbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QVBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QDebug \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QScrollBar \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qscrollbar.h \
@@ -6088,6 +6659,24 @@ paramodify.o: paramodify.cpp paramodify.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
 		ui_paramodify.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget \
 		chuweiqi.h \
 		yinweipara.h \
 		tanweisheding.h \
@@ -6201,7 +6790,37 @@ qitingsheding.o: qitingsheding.cpp qitingsheding.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_qitingsheding.h
+		ui_qitingsheding.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QDialogButtonBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdialogbuttonbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qitingsheding.o qitingsheding.cpp
 
 tanweisheding.o: tanweisheding.cpp tanweisheding.h \
@@ -6310,8 +6929,50 @@ tanweisheding.o: tanweisheding.cpp tanweisheding.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
 		ui_tanweisheding.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QDialogButtonBox \
-		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdialogbuttonbox.h
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdialogbuttonbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o tanweisheding.o tanweisheding.cpp
 
 testfunction.o: testfunction.cpp testfunction.h \
@@ -6419,7 +7080,37 @@ testfunction.o: testfunction.cpp testfunction.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_testfunction.h
+		ui_testfunction.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QTabWidget \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o testfunction.o testfunction.cpp
 
 yinweipara.o: yinweipara.cpp yinweipara.h \
@@ -6528,8 +7219,51 @@ yinweipara.o: yinweipara.cpp yinweipara.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
 		ui_yinweipara.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QDialogButtonBox \
-		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdialogbuttonbox.h
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdialogbuttonbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QTabWidget \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o yinweipara.o yinweipara.cpp
 
 yinweipeizhi.o: yinweipeizhi.cpp yinweipeizhi.h \
@@ -6637,7 +7371,49 @@ yinweipeizhi.o: yinweipeizhi.cpp yinweipeizhi.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qfiledevice.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvector2d.h \
 		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtouchdevice.h \
-		ui_yinweipeizhi.h
+		ui_yinweipeizhi.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/QVariant \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QApplication \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qcoreapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qeventloop.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qdesktopwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qguiapplication.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qinputmethod.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QComboBox \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qcombobox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractitemdelegate.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyleoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractspinbox.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qvalidator.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qregularexpression.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qicon.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractslider.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qstyle.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabbar.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qtabwidget.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qrubberband.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qframe.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtCore/qabstractitemmodel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QGridLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qgridlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlayoutitem.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qboxlayout.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QHBoxLayout \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLabel \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlabel.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QLineEdit \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qlineedit.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextcursor.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextformat.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qpen.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtGui/qtextoption.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QPushButton \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qpushbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/qabstractbutton.h \
+		../../../workSpaceQ/ssd201work/qt/qt-everywhere-src-5.15.0/install/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o yinweipeizhi.o yinweipeizhi.cpp
 
 mark1_plugin_import.o: /home/srh/markkkkk/mark1/mark1_plugin_import.cpp 
